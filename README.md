@@ -73,7 +73,8 @@ when there are threads idle for a long preriod(1 second), these threads will be 
 
 
 3. using bind to pass threadfunc into thread object for initalizing new thread object. After user submitting task,task will be pushed into task queue,then the threadfunc will be passed to threads for initialization, then in the threadfunc funciton, this running thread will consume task from task queue.
-  '''
+    
+'''
   //cached模式且任务数量大于空闲线程数量，且当前线程数量少于线程数量上限（根据机器来定）
     if(poolMode_ == PoolMode::MODE_CACHED && taskSize_ > idleThreadSize_ && curThreadSize_< threadSizeThreshHold_)
     {
@@ -90,6 +91,6 @@ when there are threads idle for a long preriod(1 second), these threads will be 
         // threads_.emplace_back(std::move(ptr));
         curThreadSize_++;
     }
-  '''
+'''
   
   
