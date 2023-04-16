@@ -1,4 +1,7 @@
-# handwriting threadpool
+# A simple threadpool
+## update
+1. Simplified the implement of the way how user can submit their tasks by  using #variadic tempalte#,#future#, #packaged_task# in c++11; 
+put all functions in the improved_threadpool.h
 ## How to use:
 ```c++
 class MyTask : public Task

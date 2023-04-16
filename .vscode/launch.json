@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "o:/project/threadpool",
-      "program": "o:/project/threadpool/build/Release/outRelease",
+      "program": "o:/project/threadpool/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
