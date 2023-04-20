@@ -95,7 +95,7 @@ private:
 
 ```
 
-### 2. implemented cached and fixed pool-mode,  
+### 2. implemented cached and fixed pool-mode. 
    #### in the "fixed" mode: 
    *the amount of threads is fixed.*   
    #### in the "cached" mode:   
