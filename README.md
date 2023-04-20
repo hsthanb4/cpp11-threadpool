@@ -1,6 +1,6 @@
 # A simple threadpool
 ## update
-1. Simplified the implement of the way how user can submit their tasks by  using **variadic tempalte**,**futur**, **packaged_task** in c++11; 
+1. Simplified the implement of the way how user can submit their tasks by  using **variadic tempalte**,**futurue**, **packaged_task** in c++11; 
 put all functions in the improved_threadpool.h
 ## How to use:
 ```c++
